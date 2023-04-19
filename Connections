@@ -1,0 +1,28 @@
+Connections:
+lcd to arduino
+gnd (arduino) --> gnd (lcd)
+5v (arduino) --> vcc (lcd)
+A4 (arduino) --> sda (lcd)
+A5 (arduino) --> scl (lcd)
+
+hx711 to arduino
+gnd (arduino) --> gnd (amp)
+D4 (arduino) --> dt (amp)
+D5 (arduino) --> sck (amp)
+3.3v (arduino) --> vcc (amp)
+
+load cell to amplifier
+red --> E+
+black --> E-
+white  A-
+green --> A+
+
+led 
+postive --> 10k ohms resister --> D7 (arduino)
+negative --> gnd (arduino)[merged]
+
+buzzer 
+positive --> d8 (a)
+negative --> gnd (arduino)[merged]
+
+[merged] means this to wires are short and given to single pin on an arduino.
